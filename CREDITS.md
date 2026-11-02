@@ -1,6 +1,8 @@
 # Image credits
 
-The images in `assets/images/` are by the creators named below. Every gallery image links to its original Unsplash photo page from the site. The gallery is curated material and does not claim authorship of the photographs or renders.
+The gallery images in `assets/images/` are by the creators named below. Every gallery image links to its original Unsplash photo page from the site. The gallery is curated material and does not claim authorship of those photographs or renders.
+
+Carl Angelo D. De Villa provided `carl-angelo-portrait.png` for this portfolio. `carl-angelo-cutout.png` is a transparent foreground cutout derived from that photo, and `carl-angelo-background.png` is a reconstructed clean background plate made from it. They form the two layers in the interactive portrait effect.
 
 | File | Creator | Source |
 | --- | --- | --- |

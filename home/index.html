@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="A curated visual gallery by Carl Angelo D. De Villa, a BSIT Game Development student.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://unorfl.github.io/DeVillaPortfolio/home/">
+  <meta property="og:title" content="Home — Carl Angelo D. De Villa">
+  <meta property="og:description" content="Carl Angelo D. De Villa — BSIT Game Development student and aspiring game developer.">
+  <meta property="og:image" content="https://unorfl.github.io/DeVillaPortfolio/assets/images/carl-angelo-portrait.png">
+  <meta property="og:image:alt" content="Carl Angelo D. De Villa in his portrait photo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://unorfl.github.io/DeVillaPortfolio/assets/images/carl-angelo-portrait.png">
+  <title>Carl Angelo D. De Villa — Portfolio</title>
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <a class="brand" href="../home/" aria-label="Carl De Villa, home">
+          <span class="brand-mark"><img class="brand-avatar" src="../assets/images/carl-angelo-portrait.png" alt=""></span>
+          <span class="brand-copy"><strong>CARL DE VILLA</strong><small>GAME DEVELOPMENT</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      </div>
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="../home/" aria-current="page"><span class="nav-number">01</span> Home</a>
+        <a class="nav-link" href="../about/"><span class="nav-number">02</span> About</a>
+        <a class="nav-link" href="../contact/"><span class="nav-number">03</span> Contact</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <p class="availability"><span class="status-dot"></span> Open to opportunities</p>
+        <p class="sidebar-note">BSIT · Game Development<br>University of Perpetual Help System</p>
+        <span class="sidebar-copyright">© 2026 Carl De Villa</span>
+      </div>
+    </aside>
+
+    <main id="main" class="main-content">
+      <header class="topline">
+        <span class="breadcrumb">Home</span>
+        <a class="top-profile" href="../about/" aria-label="About Carl Angelo D. De Villa"><img src="../assets/images/carl-angelo-portrait.png" alt=""><span>Carl De Villa</span></a>
+      </header>
+
+      <section class="hero clay-panel" data-reveal aria-labelledby="hero-title">
+        <img class="hero-image" src="../assets/images/carl-angelo-portrait.png" alt="Carl Angelo D. De Villa in a black jacket, photographed indoors" fetchpriority="high">
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">BSIT · GAME DEVELOPMENT</p>
+          <h1 id="hero-title">Carl Angelo<br>D. De Villa</h1>
+          <p class="hero-subtitle">A visual collection of worlds, color and things that spark curiosity.</p>
+          <a class="button button-gold" href="#gallery">Explore the gallery <span aria-hidden="true">↘</span></a>
+        </div>
+        <span class="hero-credit">Carl Angelo D. De Villa</span>
+      </section>
+
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow">CURATED IMAGES · CREDITED TO THEIR CREATORS</p>
+            <h2 id="gallery-title">A gallery of ideas.</h2>
+          </div>
+          <p class="section-intro">Selected photographs and renders from other artists. Choose a subject, then open any image to see it larger and visit its source.</p>
+        </div>
+
+        <div class="filters" data-reveal role="group" aria-label="Filter gallery images">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All <span>12</span></button>
+          <button class="filter-button" type="button" data-filter="worlds" aria-pressed="false">Worlds <span>5</span></button>
+          <button class="filter-button" type="button" data-filter="botanical" aria-pressed="false">Botanical <span>4</span></button>
+          <button class="filter-button" type="button" data-filter="gaming" aria-pressed="false">Gaming <span>3</span></button>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item item-wide" data-reveal type="button" data-category="worlds" data-image="../assets/images/alpine-lake.jpg" data-title="Alpine Lake" data-credit="Philip Ho" data-source="https://unsplash.com/photos/a-lake-surrounded-by-mountains-under-a-blue-sky-2HFe1VFPlyQ" aria-label="View Alpine Lake by Philip Ho larger">
+            <img src="../assets/images/alpine-lake.jpg" alt="A clear alpine lake reflecting a mountain range" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Alpine Lake</strong><small>Philip Ho · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="botanical" data-image="../assets/images/flower-red.jpg" data-title="Red-Petaled Flower" data-credit="Hannah Wright" data-source="https://unsplash.com/photos/red-petaled-flower-SWt5onUb10I" aria-label="View Red-Petaled Flower by Hannah Wright larger">
+            <img src="../assets/images/flower-red.jpg" alt="Close-up of a red flower with yellow and purple details" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Red-Petaled Flower</strong><small>Hannah Wright · Unsplash</small></span>
+          </button>
+          <button class="gallery-item item-tall" data-reveal type="button" data-category="gaming" data-image="../assets/images/controller-red.jpg" data-title="Color in Motion" data-credit="Javier Martínez" data-source="https://unsplash.com/photos/red-xbox-one-game-controller-hUD0PUczwJQ" aria-label="View Color in Motion by Javier Martínez larger">
+            <img src="../assets/images/controller-red.jpg" alt="A red game controller photographed in colored light" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Color in Motion</strong><small>Javier Martínez · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="worlds" data-image="../assets/images/fox-field.jpg" data-title="Field Encounter" data-credit="Alex Makarov" data-source="https://unsplash.com/photos/a-red-fox-chasing-a-bird-in-the-grass-o6L7-a0dQ_0" aria-label="View Field Encounter by Alex Makarov larger">
+            <img src="../assets/images/fox-field.jpg" alt="A fox and a bird in a grassy field" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Field Encounter</strong><small>Alex Makarov · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="botanical" data-image="../assets/images/flower-pink.jpg" data-title="Tilt-Shift Bloom" data-credit="Magda Pawluczuk" data-source="https://unsplash.com/photos/pink-flower-in-tilt-shift-lens-6fVCfBMdAok" aria-label="View Tilt-Shift Bloom by Magda Pawluczuk larger">
+            <img src="../assets/images/flower-pink.jpg" alt="A pink flower in a shallow-focus close-up" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Tilt-Shift Bloom</strong><small>Magda Pawluczuk · Unsplash</small></span>
+          </button>
+          <button class="gallery-item item-wide" data-reveal type="button" data-category="gaming" data-image="../assets/images/controller-blue.jpg" data-title="Blue on Blue" data-credit="Michael Marais" data-source="https://unsplash.com/photos/a-close-up-of-a-blue-controller-on-a-blue-background-7XEwZIM6mf0" aria-label="View Blue on Blue by Michael Marais larger">
+            <img src="../assets/images/controller-blue.jpg" alt="A blue gaming controller against a blue background" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Blue on Blue</strong><small>Michael Marais · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="worlds" data-image="../assets/images/macaw.jpg" data-title="Macaw in the Canopy" data-credit="Hao Chen" data-source="https://unsplash.com/es/fotos/un-colorido-guacamayo-se-pos-a-en-la-rama-de-un-arbol-PMeJhkvUKUA" aria-label="View Macaw in the Canopy by Hao Chen larger">
+            <img src="../assets/images/macaw.jpg" alt="A colorful macaw perched among green leaves" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Macaw in the Canopy</strong><small>Hao Chen · Unsplash</small></span>
+          </button>
+          <button class="gallery-item item-tall" data-reveal type="button" data-category="botanical" data-image="../assets/images/flower-petals.jpg" data-title="Petal Study" data-credit="Mariola Grobelska" data-source="https://unsplash.com/pt-br/fotografias/close-up-de-petalas-de-flores-vermelhas-e-alaranjadas-vibrantes-y5XjqdMdlKo" aria-label="View Petal Study by Mariola Grobelska larger">
+            <img src="../assets/images/flower-petals.jpg" alt="Layered red, orange, and pink flower petals" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Petal Study</strong><small>Mariola Grobelska · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="gaming" data-image="../assets/images/controller-render.jpg" data-title="Floating Controller" data-credit="Taitopia Render" data-source="https://unsplash.com/photos/a-video-game-controller-flying-through-the-air-B6oBCNG7IK4" aria-label="View Floating Controller by Taitopia Render larger">
+            <img src="../assets/images/controller-render.jpg" alt="A clean 3D render of a game controller floating against a pale backdrop" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Floating Controller</strong><small>Taitopia Render · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="botanical" data-image="../assets/images/flower-yellow.jpg" data-title="Yellow Flower Study" data-credit="Anna Rozwadowska" data-source="https://unsplash.com/photos/yellow-and-black-flower-in-macro-lens-photography-UBiMNCmJEk0" aria-label="View Yellow Flower Study by Anna Rozwadowska larger">
+            <img src="../assets/images/flower-yellow.jpg" alt="A yellow flower viewed close up, showing its detailed center" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Yellow Flower Study</strong><small>Anna Rozwadowska · Unsplash</small></span>
+          </button>
+          <button class="gallery-item item-wide" data-reveal type="button" data-category="worlds" data-image="../assets/images/city-night.jpg" data-title="After Dark" data-credit="Tsuyoshi Kozu" data-source="https://unsplash.com/photos/skyscrapers-with-illuminated-windows-at-night-ilFsK20ZP4c" aria-label="View After Dark by Tsuyoshi Kozu larger">
+            <img src="../assets/images/city-night.jpg" alt="City skyscrapers glowing after dark" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>After Dark</strong><small>Tsuyoshi Kozu · Unsplash</small></span>
+          </button>
+          <button class="gallery-item" data-reveal type="button" data-category="worlds" data-image="../assets/images/aurora.jpg" data-title="Northern Lights" data-credit="Vincent Guth" data-source="https://unsplash.com/photos/silhouette-of-trees-near-aurora-borealis-at-night-62V7ntlKgL8" aria-label="View Northern Lights by Vincent Guth larger">
+            <img src="../assets/images/aurora.jpg" alt="Aurora Borealis glowing above a pine forest at night" loading="lazy">
+            <span class="image-open" aria-hidden="true">↗</span><span class="image-caption"><strong>Northern Lights</strong><small>Vincent Guth · Unsplash</small></span>
+          </button>
+        </div>
+
+        <p class="gallery-footnote" data-reveal>All photographs and renders belong to their credited creators. Select a credit to visit the original image page on Unsplash.</p>
+      </section>
+
+      <footer class="site-footer" data-reveal>
+        <a class="footer-name" href="../about/">Carl Angelo D. De Villa</a>
+        <p>Home · 2026</p>
+      </footer>
+    </main>
+  </div>
+
+  <dialog class="lightbox" aria-label="Image viewer">
+    <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+    <button class="lightbox-nav previous" type="button" aria-label="Previous image">←</button>
+    <figure>
+      <img src="" alt="">
+      <figcaption><span class="lightbox-title"></span><a class="lightbox-source" href="#" target="_blank" rel="noreferrer"></a></figcaption>
+    </figure>
+    <button class="lightbox-nav next" type="button" aria-label="Next image">→</button>
+  </dialog>
+  <script src="../assets/js/site.js" defer></script>
+</body>
+</html>
