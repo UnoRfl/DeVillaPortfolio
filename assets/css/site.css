@@ -87,16 +87,18 @@ img { display: block; max-width: 100%; }
 .topline-note { color: #8b8b8b; }
 .clay-panel { background: var(--clay-bg); border: 1px solid #2c2a27; box-shadow: var(--clay-shadow); }
 
-.hero { min-height: min(65vh, 640px); position: relative; display: grid; grid-template-columns: minmax(0,1fr) minmax(300px,.62fr); grid-template-areas: "copy art"; align-items: stretch; gap: clamp(18px, 3vw, 48px); overflow: hidden; border-radius: 23px; isolation: isolate; }
-.hero-copy { grid-area: copy; align-self: stretch; display: flex; flex-direction: column; justify-content: center; max-width: 780px; padding: clamp(30px, 4vw, 70px); }
-.hero-artwork { grid-area: art; min-width: 0; min-height: 0; display: grid; place-items: center; overflow: hidden; margin: 16px 16px 16px 0; border-radius: 15px; background: #f4f3ee; box-shadow: 0 12px 32px rgba(0,0,0,.24); }
-.hero-image { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.hero { min-height: min(65vh, 610px); position: relative; display: flex; align-items: end; overflow: hidden; border-radius: 23px; isolation: isolate; }
+.hero-image { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 46%; }
+.hero-shade { position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, rgba(8,8,8,.89) 0%, rgba(8,8,8,.63) 42%, rgba(8,8,8,.1) 100%), linear-gradient(0deg, rgba(8,8,8,.55), transparent 55%); }
+.hero-copy { max-width: 720px; padding: clamp(30px, 5.5vw, 78px); }
 .eyebrow { margin: 0 0 13px; color: var(--accent-hi); font-size: 13px; font-weight: 700; letter-spacing: .12em; line-height: 1.5; }
-.hero h1 { max-width: 720px; margin: 0; font-size: clamp(42px, 4.2vw, 64px); font-weight: 500; letter-spacing: -.065em; line-height: .99; white-space: normal; text-wrap: balance; }
+.hero h1 { max-width: none; margin: 0; font-size: clamp(44px, 5.2vw, 72px); font-weight: 500; letter-spacing: -.065em; line-height: .99; white-space: nowrap; }
 .hero-subtitle { max-width: 440px; margin: 20px 0 25px; color: #d2d2d2; font-size: clamp(16px, 1.35vw, 18px); }
 .button { min-height: 47px; display: inline-flex; align-items: center; justify-content: center; gap: 16px; padding: 0 19px; border: 0; border-radius: 10px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; transition: transform .2s var(--ease), box-shadow .2s ease, filter .2s ease; }
 .button:hover { transform: translateY(-2px); filter: brightness(1.06); }
 .button-gold { color: #171512; background: var(--clay-gold); box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 -2px 4px rgba(72,59,38,.42), 0 10px 24px -15px #000; }
+.hero-credit { position: absolute; right: 20px; bottom: 18px; color: #dedede; font-size: 13px; }
+.hero-credit:hover { color: white; }
 
 .gallery-section { padding-top: clamp(66px, 8vw, 108px); }
 .section-heading { display: grid; grid-template-columns: minmax(0,1fr) minmax(240px,.72fr); align-items: end; gap: 38px; margin-bottom: 28px; }
@@ -206,7 +208,6 @@ img { display: block; max-width: 100%; }
 @media (max-width: 1050px) {
   .sidebar { width: 215px; padding-inline: 20px; }
   .main-content { margin-left: 215px; }
-  .hero { min-height: min(65vh, 560px); grid-template-columns: minmax(0,1fr) minmax(220px,.62fr); gap: 12px; }
   .hero h1 { font-size: clamp(32px, 4.4vw, 46px); }
   .gallery-grid { grid-template-columns: repeat(2,minmax(0,1fr)); grid-auto-rows: minmax(190px, 25vw); }
   .item-wide { grid-column: span 2; }
@@ -235,10 +236,10 @@ img { display: block; max-width: 100%; }
   .main-content { margin: 0; padding: 17px 18px 30px; }
   .topline { margin-bottom: 15px; font-size: 13px; }
   .topline-note { display: none; }
-  .hero { min-height: 0; grid-template-columns: 1fr; grid-template-areas: "art" "copy"; gap: 0; border-radius: 18px; }
-  .hero-artwork { height: min(58svh, 380px); min-height: 280px; margin: 12px 12px 0; }
-  .hero-copy { padding: 28px 24px 32px; }
-  .hero h1 { font-size: clamp(32px, 8.5vw, 46px); }
+  .hero { min-height: min(72svh, 620px); border-radius: 18px; }
+  .hero-copy { padding: 28px 24px 55px; }
+  .hero h1 { font-size: clamp(21px, 6.8vw, 48px); }
+  .hero-credit { bottom: 12px; right: 13px; font-size: 13px; }
   .section-heading { grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
   .section-heading h2 { font-size: clamp(33px, 9vw, 46px); }
   .section-intro { max-width: 580px; font-size: 16px; }

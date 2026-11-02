@@ -4,10 +4,9 @@ The gallery images in `assets/images/` are by the creators named below. Every ga
 
 Carl Angelo D. De Villa provided `carl-angelo-portrait.png` for this portfolio. The photo is displayed in its original form.
 
-The Icarus illustration in `assets/images/hero-icarus.png` was supplied by the portfolio owner for the home-page hero.
-
 | File | Creator | Source |
 | --- | --- | --- |
+| `hero-controller.jpg` | Taylor R | [Unsplash photo](https://unsplash.com/photos/a-video-game-controller-wjER4Ywen0M) |
 | `alpine-lake.jpg` | Philip Ho | [Unsplash photo](https://unsplash.com/photos/a-lake-surrounded-by-mountains-under-a-blue-sky-2HFe1VFPlyQ) |
 | `fox-field.jpg` | Alex Makarov | [Unsplash photo](https://unsplash.com/photos/a-red-fox-chasing-a-bird-in-the-grass-o6L7-a0dQ_0) |
 | `macaw.jpg` | Hao Chen | [Unsplash photo](https://unsplash.com/es/fotos/un-colorido-guacamayo-se-pos-a-en-la-rama-de-un-arbol-PMeJhkvUKUA) |
