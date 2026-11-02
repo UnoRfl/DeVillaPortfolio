@@ -94,7 +94,7 @@ img { display: block; max-width: 100%; }
 .hero-shade { position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, rgba(8,8,8,.89) 0%, rgba(8,8,8,.63) 42%, rgba(8,8,8,.1) 100%), linear-gradient(0deg, rgba(8,8,8,.55), transparent 55%); }
 .hero-copy { max-width: 720px; padding: clamp(30px, 5.5vw, 78px); }
 .eyebrow { margin: 0 0 13px; color: var(--accent-hi); font-size: 13px; font-weight: 700; letter-spacing: .12em; line-height: 1.5; }
-.hero h1 { max-width: 700px; margin: 0; font-size: clamp(43px, 6vw, 84px); font-weight: 500; letter-spacing: -.065em; line-height: .99; text-wrap: balance; }
+.hero h1 { max-width: none; margin: 0; font-size: clamp(44px, 5.2vw, 72px); font-weight: 500; letter-spacing: -.065em; line-height: .99; white-space: nowrap; }
 .hero-subtitle { max-width: 440px; margin: 20px 0 25px; color: #d2d2d2; font-size: clamp(16px, 1.35vw, 18px); }
 .button { min-height: 47px; display: inline-flex; align-items: center; justify-content: center; gap: 16px; padding: 0 19px; border: 0; border-radius: 10px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; transition: transform .2s var(--ease), box-shadow .2s ease, filter .2s ease; }
 .button:hover { transform: translateY(-2px); filter: brightness(1.06); }
@@ -210,6 +210,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 1050px) {
   .sidebar { width: 215px; padding-inline: 20px; }
   .main-content { margin-left: 215px; }
+  .hero h1 { font-size: clamp(32px, 4.4vw, 46px); }
   .gallery-grid { grid-template-columns: repeat(2,minmax(0,1fr)); grid-auto-rows: minmax(190px, 25vw); }
   .item-wide { grid-column: span 2; }
   .item-tall { grid-row: span 1; }
@@ -239,7 +240,7 @@ img { display: block; max-width: 100%; }
   .topline-note { display: none; }
   .hero { min-height: min(72svh, 620px); border-radius: 18px; }
   .hero-copy { padding: 28px 24px 55px; }
-  .hero h1 { font-size: clamp(42px, 12vw, 66px); }
+  .hero h1 { font-size: clamp(21px, 6.8vw, 48px); }
   .hero-credit { bottom: 12px; right: 13px; font-size: 13px; }
   .section-heading { grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
   .section-heading h2 { font-size: clamp(33px, 9vw, 46px); }
