@@ -25,5 +25,23 @@ Carl Angelo D. De Villa provided `carl-angelo-portrait.png` for this portfolio. 
 | `flower-orange.jpg` | Tom Birch | [Unsplash photo](https://unsplash.com/photos/orange-flower-in-macro-shot-TqrxHyqA2Gc) |
 | `misty-lake.jpg` | Intricate Explorer | [Unsplash photo](https://unsplash.com/photos/misty-mountains-rise-above-a-serene-forest-and-lake-5dz5OicoGPw) |
 | `chicago-night.jpg` | Tahsin Labib | [Unsplash photo](https://unsplash.com/photos/a-city-skyline-illuminated-at-night-with-blue-lights--gyhqzDfDug) |
+| `starry-coast.jpg` | Luke Miller | [Unsplash photo](https://unsplash.com/photos/the-night-sky-over-a-mountain-range-and-a-body-of-water-kf0FdiZy0uA) |
+| `fjord-lights.jpg` | Saad Chaudhry | [Unsplash photo](https://unsplash.com/photos/city-lights-on-mountain-near-body-of-water-during-night-time-G25LeMV7fAw) |
+| `neon-workspace.jpg` | Chuck Fortner | [Unsplash photo](https://unsplash.com/photos/gaming-workspace-with-neon-signs-LFVBohYmtgc) |
+| `modern-gaming-room.jpg` | Poojan Thanekar | [Unsplash photo](https://unsplash.com/photos/modern-gaming-setup-with-computer-and-neon-sign-sE00MAe_-xg) |
+| `petal-dream.jpg` | Liana S | [Unsplash photo](https://unsplash.com/photos/abstract-close-up-of-red-and-orange-petals-with-blue-background-L30acBxMRtI) |
+| `poppy-study.jpg` | Monica Galentino | [Unsplash photo](https://unsplash.com/photos/macro-photography-of-red-flowers-zjk0Tx6-M6Q) |
+| `gt3-rs.jpg` | Josh Berquist | [Unsplash photo](https://unsplash.com/photos/black-porsche-911-on-road-during-daytime-pjxe3p4u5aI) |
+| `gtr-r35.jpg` | Vadym Kudriavtsev | [Unsplash photo](https://unsplash.com/photos/a-close-up-of-the-front-of-a-sports-car-HMEfn6THBTY) |
+| `lamborghini-huracan.jpg` | Spencer Davis | [Unsplash photo](https://unsplash.com/photos/two-men-driving-white-lamborghini-huracan-spyder-during-daytime-2wmZMhJGCr8) |
+| `multi-screen-setup.jpg` | Huy Phan | [Unsplash photo](https://unsplash.com/photos/a-sleek-modern-desk-setup-with-multiple-screens-IO3_vOUwjVs) |
+| `night-shift-setup.jpg` | Zoshua Colah | [Unsplash photo](https://unsplash.com/photos/a-dark-office-space-with-computer-and-desk-teRVpNnlR_c) |
+| `creator-desk.jpg` | Jakub Żerdzicki | [Unsplash photo](https://unsplash.com/photos/desk-setup-with-digital-camera-keyboard-and-other-accessories-EGNJ55GsyFo) |
+| `fall-of-icarus.jpg` | The Cleveland Museum of Art | [Unsplash photo](https://unsplash.com/photos/two-winged-figures-battle-amidst-clouds-50nM6l69eio) |
+| `icarus-bronze.jpg` | Birmingham Museums Trust | [Unsplash photo](https://unsplash.com/photos/bronze-sculpture-of-a-man-with-bird-wings-zXg3RCVhVtw) |
+| `signal-noise.jpg` | Egor Komarov | [Unsplash photo](https://unsplash.com/photos/abstract-typography-with-distorted-text-and-overlapping-text-elements-59oD2Vtk1C8) |
+| `copper-terrain.jpg` | Spencer Liao | [Unsplash photo](https://unsplash.com/photos/topographic-map-texture-with-copper-lines-DFbiHCeGuDE) |
+| `topographic-swirl.jpg` | Logan Voss | [Unsplash photo](https://unsplash.com/photos/abstract-black-and-white-topographic-lines-pattern-8tDFD_5C-aU) |
+| `faial-contours.jpg` | Etienne Girardet | [Unsplash photo](https://unsplash.com/photos/a-close-up-of-a-map-with-a-circle-on-it-o3xA6T8BUQs) |
 
 Photography and image copyright remain with their respective creators. Review the current [Unsplash License](https://unsplash.com/license) before using this sample gallery in a paid or client-facing release.
